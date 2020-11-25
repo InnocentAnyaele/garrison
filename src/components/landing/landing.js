@@ -5,10 +5,11 @@ import About from '../about/about'
 import Services from '../services/services'
 import Events from '../events/events'
 import Contact from '../contact/contact'
+import './landing.css'
 
 const landing = () => {
     return (
-        <div>
+        <div style={{width: '100%'}}>
         <div className='mb-5'>
         <Nav/>
         </div>

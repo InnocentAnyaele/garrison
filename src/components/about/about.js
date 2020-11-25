@@ -34,29 +34,7 @@ export default function About() {
                 </Grid>
             </Grid>
 
-           {/* <div style={{width: '400px'}}>
-               <p style={{textAlign: 'center'}}>
-               Cillum velit aliquip velit ex ut voluptate commodo ad proident magna amet pariatur fugiat. Occaecat aliquip quis do Lorem ex ut. Tempor elit ex proident reprehenderit consectetur incididunt tempor ex excepteur eiusmod tempor et incididunt elit. Magna ut sunt aliquip aute.
-               </p>
-           </div> */}
-
-        {/* <Grid container direction="row">
-
-        <Grid item lg={12} md={12} sm={12} xs={12}>
-        <Card className={classes.root} style={{margin: 'auto', padding: '10px', marginTop: '50px'}}>
-                <CardContent>
-                    <Typography className={classes.title} color='textSecondary'>
-                        Cillum velit aliquip velit ex ut voluptate commodo ad proident magna amet pariatur fugiat. Occaecat aliquip quis do Lorem ex ut. Tempor elit ex proident reprehenderit consectetur incididunt tempor ex excepteur eiusmod tempor et incididunt elit. Magna ut sunt aliquip aute.
-                    </Typography>
-                </CardContent>
-            </Card>
-            <img alt="logo" src={Beer17} style={{height: '80vh', width: '100vh'}}></img>
-        </Grid>
-
-        </Grid> */}
-
         </div>
-    )
         </div>
     )
 }

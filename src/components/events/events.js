@@ -12,10 +12,10 @@ const Events = () => {
             <p className="pt-5" style={{fontSize: '30px'}}>Events</p>
             <hr style={{width: '100px', color: 'black'}}></hr>
 
-            <Grid container direction="column" justify="center" spacing={10} className='p-5'>
+            <Grid container direction="column" justify="center" alignItems='center' spacing={10} className='p-5'>
                 <Grid container direction="row" justify="center" alignItems='center' className="p-5">
                     <Grid item xs={12} sm={12} md={4} lg={4}>
-                        <img alt="comedy" src={comedy} style={{width: '50vh', height: '60vh'}}/>
+                        <img alt="comedy" src={comedy} style={{width: '40vh', height: '60vh'}}/>
                     </Grid>
                     <Grid item xs={12} sm={12} md={4} lg={4} className='p-5'>
                         <p className='comedy' style={{fontWeight: 'bolder', fontSize: '40px'}}>Stand Up <span style={{color: '#FF7F50'}}>Comedy</span></p>
@@ -32,12 +32,12 @@ const Events = () => {
                         <p className='text-muted'>The Garrison also features a huge and beatiful karaoke machine. Come have the fun of your lifetime singing along your favourite musics.</p>
                     </Grid>
                     <Grid item xs={12} sm={12} md={4} lg={4} >
-                        <img alt="karaoke" src={karaoke} style={{width: '50vh', height: '50vh'}}/>
+                        <img alt="karaoke" src={karaoke} style={{width: '40vh', height: '50vh'}}/>
                     </Grid>
                 </Grid>
                 <Grid container direction="row" justify="center" alignItems='center' className="p-5">
                     <Grid item xs={12} sm={12} md={4} lg={4}>
-                        <img alt="band" src={band} style={{width: '50vh', height: '60vh'}}/>
+                        <img alt="band" src={band} style={{width: '40vh', height: '60vh'}}/>
                     </Grid>
                     <Grid item xs={12} sm={12} md={4} lg={4} className='p-5'>
                         <p className='comedy' style={{fontWeight: 'bolder', fontSize: '40px'}}>Live Band <span style={{color: '#FF7F50'}}>Performance</span></p>
