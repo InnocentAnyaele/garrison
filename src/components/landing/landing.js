@@ -9,7 +9,7 @@ import './landing.css'
 
 const landing = () => {
     return (
-        <div style={{width: '100%'}}>
+        <div>
         <div className='mb-5'>
         <Nav/>
         </div>
